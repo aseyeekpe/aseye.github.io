@@ -1,0 +1,142 @@
+body{
+    background-color: #162F26;
+    /* color: #FAF7F0; */
+}
+
+.container {
+    height: 100vh; 
+    background-color: #2E5E4E;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;       
+    display: flex;
+    justify-content: center;  
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.intro button{
+    background-color:#D4A73E;
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro-text{
+    text-align: center;
+    position:absolute;
+    left: 30vh;
+    top: 30vh;
+}
+.contacts{
+    gap: 10px;
+}
+.contacts img{
+    padding-top: 15px;
+    width: 40px;
+}
+.pic-of-me1{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 10px;
+    position: absolute;
+    right: 30vh;
+    top: 30vh;
+}
+
+.about-section .container{
+    background-color: #FAF7F0;
+    height:75vh;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.pic-of-me2 {
+    width: 32vh;              
+    max-width: 380px;
+    border-radius: 10px;
+    position: absolute;
+    left: 25vh;  
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.about-text {
+    position: absolute;
+    right: 25vh;          
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 420px;
+    text-align: left;  
+}
+
+.about-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.project-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.project-section .container h1 {
+    text-align: center;  
+    margin-bottom: 2rem; 
+}
+
+.project-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: absolute; */
+    margin-right:25vh;
+    margin-left: 25vh;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.project{
+    background-color: #EEECE7;
+    border-radius: 10px;
+    border: 1px solid #162F26;
+    height:50vh;
+    width: 15vw;
+    display:flex;
+    flex-direction: column;
+    /* padding: 18px 26px; */
+    align-items: center;
+    flex: 1 1 auto;
+    /* min-width: 250px;
+    max-width: 300px;     */
+}
+
+.project img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0 0;
+    border:2px solid #162F26;
+}
+.project .content{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+}
+.content h3{
+    margin-bottom: 2rem;
+}
