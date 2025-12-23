@@ -1,82 +1,164 @@
 <head>
     <title>Figma Design</title>
+    <link rel="stylesheet" href="figmaDesignStyle.css">
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
         <h1>Figma Design</h1>
     </div>
-    <div class="container">
-        <h3>The Problem</h3>
-        <p>The problem I wanted to solve was the interface issues I’ve experienced, as well as the ones I’ve heard other users talk about. I felt like these could be addressed through a redesign in Figma.</p>
+    <div class="main-container">
+        <div class="container">
+            <h3>The Problem</h3>
+            <p>The problem I wanted to solve was the interface issues I’ve experienced, as well as the ones I’ve heard other users talk about. I felt like these could be addressed through a redesign in Figma.</p>
+        </div>
+        <div class="container">
+            <h3>Research</h3>
+            <p>For my research, I looked through different forums and pages to see what problems people had with the app and its design. From there, I made a list of potential areas to improve—whether they were strictly interface issues or not.</p>
+            <ul>
+                <li>Implement half stars</li>
+                <li>More mobile friendly design</li>
+                <li>Change goal setting ability</li>
+                <li>Change goal setting ability, not just number of books</li>
+                <li>Add dnf option for all books</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Design/Plan</h3>
+            <p>Using screenshots from the mobile app, I created a kind of mind map where I highlighted the spots where those previously mentioned annoyances were the most noticeable.</p>
+            <img src='' alt="Mindmap1">
+            <p>From that mind map, I sketched out basic visuals of the pages that needed the most adjustment.</p>
+            <div class="sketches">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/sketches.jpeg' alt="sketches">
+                <div class="key-features">
+                    <p>The key features of this design were:</p>
+                    <ul>
+                        <li>The “Currently Reading” block on the home page</li>
+                        <li>The pop-up profile sidebar</li>
+                        <li>Genre-focused sections on the home page</li>
+                        <li>The feature to add a new review to a book</li>
+                    </ul>
+                </div>             
+            </div>
+            
+        </div>
+        <div class="container">
+            <h3>Prototype 1</h3>
+            <p>For my first prototype, I used my sketched visuals to build the application interface. I did this using Figma tools such as auto-layout, components, and assets.</p>
+            <div class="proto-1">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/Proto1 home.png' alt="home-page">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/Proto1 home+profile.png' alt="pop-up-profile">
+            </div>
+            
+        </div>
+        <div class="container">
+            <h3>Feedback and Evaluation</h3>
+            <div class="feedback1">
+                <div class="list1">
+                    <p>The feedback I received for Prototype 1 included:</p>
+                    <ul>
+                        <li>Touch targets for the “want to read” button are too small</li>
+                        <li>There’s no clear colour theme throughout</li>
+                        <li>The bottom navigation isn’t cohesive with the rest of the design</li>
+                        <li>There isn’t enough contrast between colours, which could make it difficult for visually impaired users</li>
+                        <li>The search bar doesn’t have enough padding</li>
+                        <li>It looks too thin</li>
+                        <li>The “Currently Reading” section is missing the book title and author</li>
+                        <li>Consider removing the profile side panel and moving that into the bottom navigation</li>
+                        <li>Or decluttering it</li>
+                        <li>Consider combining the “Books” and “Stats” pages</li>
+                        <li>Make it clearer which page the user is currently on</li>
+                        <li>The spacing at the top could be reduced</li>
+                    </ul>
+                </div>
+                
+                <div class="list2">
+                    <p>After evaluating the feedback, I made a list of changes I could apply:</p>
+                    <ul>
+                        <li>Improve button accessibility</li>
+                        <li>Increase touch target size and add padding around the icon</li>
+                        <li>Choose a primary, secondary, and accent colour</li>
+                        <li>Adjust icon sizes on the bottom navigation bar so they match the overall visual style</li>
+                        <li>Darken text or lighten backgrounds to improve contrast</li>
+                        <li>Thicken the search bar so it better fits with the rest of the page</li>
+                        <li>Add the book title and author to the “Currently Reading” section</li>
+                        <li>Highlight the bottom navigation icon based on the current page, or add a page indicator at the top</li>
+                        <li>Reduce the extra empty space at the top</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="container">
-        <h3>Research</h3>
-        <p>For my research, I looked through different forums and pages to see what problems people had with the app and its design. From there, I made a list of potential areas to improve—whether they were strictly interface issues or not.</p>
-    </div>
-    <div class="container">
-        <h3>Design/Plan</h3>
-        <p>Using screenshots from the mobile app, I created a kind of mind map where I highlighted the spots where those previously mentioned annoyances were the most noticeable.</p>
-        <p>From that mind map, I sketched out basic visuals of the pages that needed the most adjustment.</p>
-        <p>The key features of this design were:</p>
-        <ul>
-             <li>The “Currently Reading” block on the home page</li>
-             <li>The pop-up profile sidebar</li>
-             <li>Genre-focused sections on the home page</li>
-             <li>The feature to add a new review to a book</li>
-        </ul>
-    </div>
-    <div class="container">
-        <h3>Prototype 1</h3>
-        <p>For my first prototype, I used my sketched visuals to build the application interface. I did this using Figma tools such as auto-layout, components, and assets.</p>
-    </div>
-    <div class="container">
-        <h3>Feedback and Evaluation</h3>
-        <p>The feedback I received for Prototype 1 included:</p>
-        <ul>
-            <li>Touch targets for the “want to read” button are too small</li>
-            <li>There’s no clear colour theme throughout</li>
-            <li>The bottom navigation isn’t cohesive with the rest of the design</li>
-            <li>There isn’t enough contrast between colours, which could make it difficult for visually impaired users</li>
-            <li>The search bar doesn’t have enough padding</li>
-            <li>It looks too thin</li>
-            <li>The “Currently Reading” section is missing the book title and author</li>
-            <li>Consider removing the profile side panel and moving that into the bottom navigation</li>
-            <li>Or decluttering it</li>
-            <li>Consider combining the “Books” and “Stats” pages</li>
-            <li>Make it clearer which page the user is currently on</li>
-            <li>The spacing at the top could be reduced</li>
-        </ul>
-        <p>After evaluating the feedback, I made a list of changes I could apply:</p>
-        <ul>
-            <li>Improve button accessibility</li>
-            <li>Increase touch target size and add padding around the icon</li>
-            <li>Choose a primary, secondary, and accent colour</li>
-            <li>Adjust icon sizes on the bottom navigation bar so they match the overall visual style</li>
-            <li>Darken text or lighten backgrounds to improve contrast</li>
-            <li>Thicken the search bar so it better fits with the rest of the page</li>
-            <li>Add the book title and author to the “Currently Reading” section</li>
-            <li>Highlight the bottom navigation icon based on the current page, or add a page indicator at the top</li>
-            <li>Reduce the extra empty space at the top</li>
-        </ul>
 
+    <div class="main-container">
+        <div class="container">
+            <h3>Prototype 2</h3>
+            <p>With that feedback applied, I created wireframes of the main screens of the app. These included the home page, the book rating/review page, and the user’s profile.</p>
+            <div class="wireframes">
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/home-1.png' alt="home-1">
+                    <h3>Home Page Design 1</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/home-2.png' alt="home-2">
+                    <h3>Home Page Design 2</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/rating-1.png' alt="rating-1">
+                    <h3>Book Rating Page Design</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/search-1.png' alt="search-1">
+                    <h3>Search Page Design</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/stats-1.png' alt="stats-1">
+                    <h3>Statistic Page Design</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/books-1.png' alt="books-1">
+                    <h3>Library Page Design 1</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/mybooks-2.png' alt="mybooks-2">
+                    <h3>Library Page Design 2</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/profile-1.png' alt="profile-1">
+                    <h3>User Profile Page Design 1</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/profile-2.png' alt="profile-2">
+                    <h3>User Profile Page Design 2</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/book desc-1.png' alt="book desc-1">
+                    <h3>Book Description Page Design</h3>
+                </div>
+                <div class="frame">
+                    <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/book desc-1.5.png' alt="book desc-1">
+                    <h3>Book Description Page Design (Read Book)</h3>
+                </div>
+            </div>
+            <p>Creating wireframes this time made the design process much easier, since I had already figured out a solid layout with proper spacing.</p>
+            <p>I also collected a few colour schemes for the app and decided on the primary, secondary, and accent colours.</p>
+            <p>Using the wireframes and the colour scheme, I then designed a home page and a book library page.</p>
+            <div class="prototype2">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/prototype 2.1.png' alt="Prototype2.1">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/prototype 2.2.1.png' alt="Prototype2.2.1">
+                <img src='/Users/aseyeekpe/Desktop/Goodreads Related Stuff/prototype 2.2.2.png' alt="Prototype2.2.2">
+            </div>
+            
+        </div>
     </div>
-    <div class="container">
-        <h3></h3>
-        <p></p>
-    </div>
-    <div class="container">
-        <h3>Prototype 2 (+ what i changed)</h3>
-        <p>With that feedback applied, I created wireframes of the main screens of the app. These included the home page, the book rating/review page, and the user’s profile.</p>
-        <p>Creating wireframes this time made the design process much easier, since I had already figured out a solid layout with proper spacing.</p>
-        <p>I also collected a few colour schemes for the app and decided on the primary, secondary, and accent colours.</p>
-        <p>Using the wireframes and the colour scheme, I then designed a home page and a book library page.</p>
 
+    <div class="main-container">
+        <div class="container">
+            <h3>What did I learn?</h3>
+            <p>Throughout this project, I went through a full design cycle—from identifying interface problems, to researching user frustrations, planning my redesign, and building two rounds of prototypes. The process helped me understand how much thought goes into making an interface that is both visually consistent and genuinely usable.</p>
+            <p>One of the biggest things I learned was the importance of using components, padding, and auto layout properly. When I first started designing, I didn’t realize how much these tools simplify the process and keep everything consistent. As I revised my prototype, I saw how components speed up repetitive elements, how padding creates cleaner visual spacing, and how auto layout makes it easier to adjust designs without breaking the layout. These skills made my second prototype far more structured and easier to work with.</p>
+            <p>I also realized how useful wireframes are in the design process. Creating wireframes for my main screens before jumping into a final design made a huge difference—they helped me focus on spacing, structure, and hierarchy first, without getting distracted by colours or aesthetics. When I started designing the polished versions afterward, everything felt more intentional because the layout was already solid.</p>
+            <p>Overall, this project taught me lots, including how small changes like adjusting touch targets or increasing contrast can greatly improve accessibility and definition.</p>
+        </div>
     </div>
-    <div class="container">
-        <h3>What did I learn?</h3>
-        <p>Throughout this project, I went through a full design cycle—from identifying interface problems, to researching user frustrations, planning my redesign, and building two rounds of prototypes. The process helped me understand how much thought goes into making an interface that is both visually consistent and genuinely usable.</p>
-        <p>One of the biggest things I learned was the importance of using components, padding, and auto layout properly. When I first started designing, I didn’t realize how much these tools simplify the process and keep everything consistent. As I revised my prototype, I saw how components speed up repetitive elements, how padding creates cleaner visual spacing, and how auto layout makes it easier to adjust designs without breaking the layout. These skills made my second prototype far more structured and easier to work with.</p>
-        <p>I also realized how useful wireframes are in the design process. Creating wireframes for my main screens before jumping into a final design made a huge difference—they helped me focus on spacing, structure, and hierarchy first, without getting distracted by colours or aesthetics. When I started designing the polished versions afterward, everything felt more intentional because the layout was already solid.</p>
-        <p>Overall, this project taught me lots, including how small changes like adjusting touch targets or increasing contrast can greatly improve accessibility and definition.</p>
-    </div>
+    
 </body>
