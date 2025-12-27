@@ -1,3 +1,4 @@
+
 body{
     background-color: #E8E1D4;
     display: flex;
@@ -26,4 +27,15 @@ button{
     border-radius: 8px;
     font-size: 17px;
     color: #2C2C2C;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.main img{
+    width:30vw;
+}
+.text-button{
+    align-items: center;
 }
