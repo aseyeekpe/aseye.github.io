@@ -25,9 +25,18 @@ body {
 }
 .mindmap{
     display: flex;
-    flex-direction: row;
-    width: 15vw;
+    flex-direction: column;
     gap:10px;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.mindmap img{
+    width: 15vw;
+    border-radius: 10px;
 }
 ul{
     font-size: 18px;
